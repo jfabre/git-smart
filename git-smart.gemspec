@@ -18,7 +18,7 @@ Gem::Specification.new do |s|
   s.test_files  = `git ls-files -- spec`.split("\n")
 
   s.add_runtime_dependency(%q<colorize>, [">= 0"])
-
+  s.add_runtime_dependency(%q<win32-process>, [">= 0"])
   s.add_development_dependency(%q<rspec>, [">= 2.7.0"])
   s.add_development_dependency(%q<rcov>, [">= 0"])
   s.add_development_dependency(%q<rocco>, [">= 0"])
